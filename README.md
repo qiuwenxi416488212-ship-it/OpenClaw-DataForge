@@ -4,8 +4,6 @@
 功能: 多格式解析/智能编码/自动修复/一键清洗/批量处理  
 包含: Data Parser + Excel Parser + Database Ops + 可视化 + 飞书表格
 
-
-
 技能套件完整介绍
 这是什么?
 OpenClaw 数据处理技能套件 = 5个专业工具,帮你搞定所有数据处理工作
@@ -71,8 +69,8 @@ chart = ChartGenerator()
 chart.line_chart(data, "月份", "销售")
 chart.save("图表.png")
 🏆 技能5: Feishu Sheets (飞书表格)
-能做什么:
 
+能做什么:
 构建飞书表格请求
 自动化数据同步
 📦 安装
@@ -97,6 +95,7 @@ excel-xlsx	excel_parser.py	23	完整文档+示例
 feishu-sheets-skill	feishu_sheets.py	16	完整文档+示例
 database-ops	database_ops.py + mysql_ops.py	25+	完整文档+示例
 data-visualization	chart_generator.py	12+	完整文档+示例
+
 每个技能包含
 Copy
 ✅ SKILL.md          - OpenClaw技能定义
